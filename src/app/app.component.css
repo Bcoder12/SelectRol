@@ -1,0 +1,54 @@
+.example-icon {
+  padding: 0 14px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+.OtroCentrar{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.centrar{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.example-card {
+  max-width: 460px;
+  min-width: 280px;
+  border: 20px;
+  text-align: justify;
+  
+}
+
+.example-radio-group {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.example-radio-button {
+  margin: 10px;
+  font-weight: 400;
+}
+
+.example-selected-value {
+  margin: 15px 0;
+}
+/* .example-card {
+  min-width: 100%;
+} */
+
+.example-header-image {
+  background-image: url('https://material.io/tools/icons/static/icons/baseline-account_circle-24px.svg');
+  background-size: cover;
+}
+.card-header{
+  font-weight: bold;
+}

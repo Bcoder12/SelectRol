@@ -1,0 +1,58 @@
+<mat-toolbar color="primary">
+    <mat-icon>home</mat-icon>
+    <button mat-button>Home</button>
+    <span class="example-spacer"></span>
+    <mat-icon class="example-icon">verified_user</mat-icon>
+    <mat-icon class="example-icon">delete</mat-icon>
+</mat-toolbar>
+<p>
+        
+</p>
+<!--   
+<div style="position: relative; margin-top: 240px">
+<div class="centrar">
+ <mat-card class="example-card">
+  <mat-card-header class="card-header">
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title class="card-header">Seleccionar ROL</mat-card-title>
+    <mat-card-subtitle>Roles</mat-card-subtitle>
+  </mat-card-header>
+    <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteRol">
+      <mat-radio-button class="example-radio-button" *ngFor="let rol of roles" [value]="rol" (change)="activar = false">
+      {{rol}}
+    </mat-radio-button>
+</mat-radio-group>
+  <mat-card-content>    
+    <div class="example-selected-value">
+      
+    </div>        
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button disabled="{{activar}}">Aceptar</button>
+  </mat-card-actions>
+</mat-card>
+</div>
+</div> -->
+
+<div class="OtroCentrar"> 
+   <mat-card class="example-card">
+    <mat-card-header class="card-header">
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title class="card-header">Seleccionar ROL</mat-card-title>
+      <mat-card-subtitle>Roles</mat-card-subtitle>
+    </mat-card-header>
+      <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteRol">
+        <mat-radio-button class="example-radio-button" *ngFor="let rol of roles" [value]="rol" (change)="activar = false">
+        {{rol}}
+      </mat-radio-button>
+  </mat-radio-group>
+    <mat-card-content>    
+      <div class="example-selected-value">
+        
+      </div>        
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button disabled="{{activar}}">Aceptar</button>
+    </mat-card-actions>
+  </mat-card>
+  </div>
